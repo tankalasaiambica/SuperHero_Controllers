@@ -12,6 +12,7 @@ import static io.restassured.RestAssured.given;
 
 public class TestNGListener implements ITestListener {
     public static JSONObject data;
+
     @Override
     public void onStart(ITestContext context) {
         data = SuperHeroJsonData.inputDateInit();

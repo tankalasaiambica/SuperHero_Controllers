@@ -351,7 +351,7 @@ public class MyStepdefs {
 
         jsonpath = new JsonPath(response.asString());
         error = jsonpath.getString("error");
-        System.out.println("error"+error);
+        System.out.println("error" + error);
     }
 
     @Then("display invalid error")

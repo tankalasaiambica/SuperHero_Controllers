@@ -30,7 +30,9 @@ public class SuperHero implements Serializable {
     private boolean canFly;
 
     // Constructor, Getter and Setter
-    public SuperHero(){}
+    public SuperHero() {
+    }
+
     public SuperHero(String name, String superName, String profession, int age, boolean canFly) {
 //        this.id = id;
         this.name = name;

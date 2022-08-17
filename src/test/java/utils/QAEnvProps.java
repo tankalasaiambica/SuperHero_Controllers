@@ -5,15 +5,17 @@ import java.io.IOException;
 import java.util.Properties;
 
 public class QAEnvProps {
-    private static final Properties properties=new Properties();
-    public static void init(){
+    private static final Properties properties = new Properties();
+
+    public static void init() {
         try {
             properties.load(new FileInputStream("src/test/resources/prod.properties"));
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
     }
-    public static String getValue(String key){
+
+    public static String getValue(String key) {
 
         return properties.getProperty(key);
 

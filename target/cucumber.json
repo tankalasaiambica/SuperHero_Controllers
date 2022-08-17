@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 7978300,
+              "duration": 2992000,
               "status": "passed"
             },
             "line": 4,
@@ -24,7 +24,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-08-16T04:51:05.254Z",
+        "start_timestamp": "2022-08-17T04:55:15.430Z",
         "line": 6,
         "name": "Verify list of superHero",
         "description": "",
@@ -34,7 +34,7 @@
         "steps": [
           {
             "result": {
-              "duration": 28054306800,
+              "duration": 6229568100,
               "status": "passed"
             },
             "line": 7,
@@ -46,7 +46,7 @@
           },
           {
             "result": {
-              "duration": 4987800,
+              "duration": 37896600,
               "status": "passed"
             },
             "line": 8,
@@ -67,7 +67,7 @@
         "steps": [
           {
             "result": {
-              "duration": 998200,
+              "duration": 996900,
               "status": "passed"
             },
             "line": 4,
@@ -80,7 +80,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-08-16T04:51:33.599Z",
+        "start_timestamp": "2022-08-17T04:55:21.779Z",
         "line": 10,
         "name": "Verify displaying single superHero",
         "description": "",
@@ -90,7 +90,7 @@
         "steps": [
           {
             "result": {
-              "duration": 8544743000,
+              "duration": 5165959300,
               "status": "passed"
             },
             "line": 11,
@@ -102,7 +102,7 @@
           },
           {
             "result": {
-              "duration": 1624860900,
+              "duration": 324242700,
               "status": "passed"
             },
             "line": 12,
@@ -114,7 +114,7 @@
           },
           {
             "result": {
-              "duration": 28924200,
+              "duration": 24929500,
               "status": "passed"
             },
             "line": 13,
@@ -135,7 +135,7 @@
         "steps": [
           {
             "result": {
-              "duration": 996800,
+              "duration": 996600,
               "status": "passed"
             },
             "line": 4,
@@ -148,7 +148,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-08-16T04:51:43.864Z",
+        "start_timestamp": "2022-08-17T04:55:27.351Z",
         "line": 15,
         "name": "Verify invalid superHero id",
         "description": "",
@@ -158,7 +158,7 @@
         "steps": [
           {
             "result": {
-              "duration": 10248291700,
+              "duration": 472398500,
               "status": "passed"
             },
             "line": 16,
@@ -170,7 +170,7 @@
           },
           {
             "result": {
-              "duration": 991100,
+              "duration": 2990800,
               "status": "passed"
             },
             "line": 17,
@@ -191,7 +191,7 @@
         "steps": [
           {
             "result": {
-              "duration": 7981000,
+              "duration": 996700,
               "status": "passed"
             },
             "line": 4,
@@ -204,7 +204,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-08-16T04:51:54.163Z",
+        "start_timestamp": "2022-08-17T04:55:27.881Z",
         "line": 19,
         "name": "Verify invalid url",
         "description": "",
@@ -214,7 +214,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4490086900,
+              "duration": 425179100,
               "status": "passed"
             },
             "line": 20,
@@ -226,7 +226,6 @@
           },
           {
             "result": {
-              "duration": 987400,
               "status": "passed"
             },
             "line": 21,
@@ -247,7 +246,6 @@
         "steps": [
           {
             "result": {
-              "duration": 998900,
               "status": "passed"
             },
             "line": 4,
@@ -260,8 +258,8 @@
         ]
       },
       {
-        "start_timestamp": "2022-08-16T04:51:58.745Z",
-        "line": 24,
+        "start_timestamp": "2022-08-17T04:55:28.344Z",
+        "line": 23,
         "name": "Verify that a superHero is created",
         "description": "",
         "id": "super-hero-feature;verify-that-a-superhero-is-created",
@@ -270,10 +268,10 @@
         "steps": [
           {
             "result": {
-              "duration": 1202198900,
+              "duration": 306180000,
               "status": "passed"
             },
-            "line": 25,
+            "line": 24,
             "name": "post the superhero",
             "match": {
               "location": "steps.MyStepdefs.postTheSuperhero()"
@@ -282,9 +280,10 @@
           },
           {
             "result": {
+              "duration": 999500,
               "status": "passed"
             },
-            "line": 26,
+            "line": 25,
             "name": "the super hero is created",
             "match": {
               "location": "steps.MyStepdefs.theSuperHeroIsCreated()"
@@ -302,7 +301,6 @@
         "steps": [
           {
             "result": {
-              "duration": 1994700,
               "status": "passed"
             },
             "line": 4,
@@ -315,8 +313,8 @@
         ]
       },
       {
-        "start_timestamp": "2022-08-16T04:51:59.980Z",
-        "line": 28,
+        "start_timestamp": "2022-08-17T04:55:28.711Z",
+        "line": 27,
         "name": "Verify that a superHero is not created with empty name value",
         "description": "",
         "id": "super-hero-feature;verify-that-a-superhero-is-not-created-with-empty-name-value",
@@ -325,10 +323,10 @@
         "steps": [
           {
             "result": {
-              "duration": 570472700,
+              "duration": 277255100,
               "status": "passed"
             },
-            "line": 29,
+            "line": 28,
             "name": "creating a superhero with no name value",
             "match": {
               "location": "steps.MyStepdefs.creatingASuperheroWithNoNameValue()"
@@ -337,10 +335,9 @@
           },
           {
             "result": {
-              "duration": 1007800,
               "status": "passed"
             },
-            "line": 30,
+            "line": 29,
             "name": "the super hero is not created",
             "match": {
               "location": "steps.MyStepdefs.theSuperHeroIsNotCreated()"
@@ -358,6 +355,7 @@
         "steps": [
           {
             "result": {
+              "duration": 1994400,
               "status": "passed"
             },
             "line": 4,
@@ -370,8 +368,8 @@
         ]
       },
       {
-        "start_timestamp": "2022-08-16T04:52:00.592Z",
-        "line": 33,
+        "start_timestamp": "2022-08-17T04:55:29.034Z",
+        "line": 31,
         "name": "Verify that a superHero is not created with empty super value",
         "description": "",
         "id": "super-hero-feature;verify-that-a-superhero-is-not-created-with-empty-super-value",
@@ -380,10 +378,10 @@
         "steps": [
           {
             "result": {
-              "duration": 479987900,
+              "duration": 251330100,
               "status": "passed"
             },
-            "line": 34,
+            "line": 32,
             "name": "creating a superhero with no super name value",
             "match": {
               "location": "steps.MyStepdefs.creatingASuperheroWithNoSuperNameValue()"
@@ -392,10 +390,10 @@
           },
           {
             "result": {
-              "duration": 997800,
+              "duration": 997500,
               "status": "passed"
             },
-            "line": 35,
+            "line": 33,
             "name": "cannot create without super name",
             "match": {
               "location": "steps.MyStepdefs.cannotCreateWithoutSuperName()"
@@ -413,6 +411,7 @@
         "steps": [
           {
             "result": {
+              "duration": 1994900,
               "status": "passed"
             },
             "line": 4,
@@ -425,8 +424,8 @@
         ]
       },
       {
-        "start_timestamp": "2022-08-16T04:52:01.109Z",
-        "line": 38,
+        "start_timestamp": "2022-08-17T04:55:29.375Z",
+        "line": 35,
         "name": "Verify that a superHero is not created with empty profession value",
         "description": "",
         "id": "super-hero-feature;verify-that-a-superhero-is-not-created-with-empty-profession-value",
@@ -435,10 +434,10 @@
         "steps": [
           {
             "result": {
-              "duration": 474759900,
+              "duration": 293341900,
               "status": "passed"
             },
-            "line": 39,
+            "line": 36,
             "name": "creating a superhero with no profession value",
             "match": {
               "location": "steps.MyStepdefs.creatingASuperheroWithNoProfessionValue()"
@@ -447,10 +446,9 @@
           },
           {
             "result": {
-              "duration": 997100,
               "status": "passed"
             },
-            "line": 40,
+            "line": 37,
             "name": "cannot create without profession",
             "match": {
               "location": "steps.MyStepdefs.cannotCreateWithoutProfession()"
@@ -468,6 +466,7 @@
         "steps": [
           {
             "result": {
+              "duration": 1009100,
               "status": "passed"
             },
             "line": 4,
@@ -480,8 +479,8 @@
         ]
       },
       {
-        "start_timestamp": "2022-08-16T04:52:01.609Z",
-        "line": 43,
+        "start_timestamp": "2022-08-17T04:55:29.724Z",
+        "line": 39,
         "name": "Verify that a superHero is not created with empty age value",
         "description": "",
         "id": "super-hero-feature;verify-that-a-superhero-is-not-created-with-empty-age-value",
@@ -490,10 +489,10 @@
         "steps": [
           {
             "result": {
-              "duration": 580204600,
+              "duration": 369002400,
               "status": "passed"
             },
-            "line": 44,
+            "line": 40,
             "name": "creating a superhero with no age value",
             "match": {
               "location": "steps.MyStepdefs.creatingASuperheroWithNoAgeValue()"
@@ -502,9 +501,10 @@
           },
           {
             "result": {
+              "duration": 1995400,
               "status": "passed"
             },
-            "line": 45,
+            "line": 41,
             "name": "cannot create without age",
             "match": {
               "location": "steps.MyStepdefs.cannotCreateWithoutAge()"
@@ -534,8 +534,8 @@
         ]
       },
       {
-        "start_timestamp": "2022-08-16T04:52:02.212Z",
-        "line": 47,
+        "start_timestamp": "2022-08-17T04:55:30.155Z",
+        "line": 43,
         "name": "Verify that a superHero is  created without canFly value",
         "description": "",
         "id": "super-hero-feature;verify-that-a-superhero-is--created-without-canfly-value",
@@ -544,10 +544,10 @@
         "steps": [
           {
             "result": {
-              "duration": 1349359500,
+              "duration": 401926500,
               "status": "passed"
             },
-            "line": 48,
+            "line": 44,
             "name": "creating a superhero with no canFly value",
             "match": {
               "location": "steps.MyStepdefs.creatingASuperheroWithNoCanFlyValue()"
@@ -556,10 +556,10 @@
           },
           {
             "result": {
-              "duration": 997500,
+              "duration": 3987100,
               "status": "passed"
             },
-            "line": 49,
+            "line": 45,
             "name": "create with default canFly value",
             "match": {
               "location": "steps.MyStepdefs.createWithDefaultCanFlyValue()"
@@ -577,7 +577,7 @@
         "steps": [
           {
             "result": {
-              "duration": 998200,
+              "duration": 998600,
               "status": "passed"
             },
             "line": 4,
@@ -590,8 +590,8 @@
         ]
       },
       {
-        "start_timestamp": "2022-08-16T04:52:03.619Z",
-        "line": 53,
+        "start_timestamp": "2022-08-17T04:55:30.583Z",
+        "line": 47,
         "name": "Verify that the user name is updated",
         "description": "",
         "id": "super-hero-feature;verify-that-the-user-name-is-updated",
@@ -600,10 +600,10 @@
         "steps": [
           {
             "result": {
-              "duration": 3084363700,
+              "duration": 283243100,
               "status": "passed"
             },
-            "line": 54,
+            "line": 48,
             "name": "Create a user",
             "match": {
               "location": "steps.MyStepdefs.createAUser()"
@@ -612,10 +612,10 @@
           },
           {
             "result": {
-              "duration": 1692204400,
+              "duration": 314153400,
               "status": "passed"
             },
-            "line": 55,
+            "line": 49,
             "name": "updating a user name",
             "match": {
               "location": "steps.MyStepdefs.updatingAUserName()"
@@ -624,10 +624,10 @@
           },
           {
             "result": {
-              "duration": 32911800,
+              "duration": 22939100,
               "status": "passed"
             },
-            "line": 56,
+            "line": 50,
             "name": "User name must be updated",
             "match": {
               "location": "steps.MyStepdefs.userNameMustBeUpdated()"
@@ -657,8 +657,8 @@
         ]
       },
       {
-        "start_timestamp": "2022-08-16T04:52:08.459Z",
-        "line": 59,
+        "start_timestamp": "2022-08-17T04:55:31.234Z",
+        "line": 52,
         "name": "Verify that the user super name is updated",
         "description": "",
         "id": "super-hero-feature;verify-that-the-user-super-name-is-updated",
@@ -667,10 +667,10 @@
         "steps": [
           {
             "result": {
-              "duration": 512538500,
+              "duration": 331108600,
               "status": "passed"
             },
-            "line": 60,
+            "line": 53,
             "name": "Create a user",
             "match": {
               "location": "steps.MyStepdefs.createAUser()"
@@ -679,10 +679,10 @@
           },
           {
             "result": {
-              "duration": 1585867100,
+              "duration": 242207900,
               "status": "passed"
             },
-            "line": 61,
+            "line": 54,
             "name": "updating super name of user",
             "match": {
               "location": "steps.MyStepdefs.updatingSuperNameOfUser()"
@@ -691,10 +691,10 @@
           },
           {
             "result": {
-              "duration": 29919500,
+              "duration": 51863500,
               "status": "passed"
             },
-            "line": 62,
+            "line": 55,
             "name": "User super name must be updated",
             "match": {
               "location": "steps.MyStepdefs.userSuperNameMustBeUpdated()"
@@ -712,7 +712,6 @@
         "steps": [
           {
             "result": {
-              "duration": 1993800,
               "status": "passed"
             },
             "line": 4,
@@ -725,8 +724,8 @@
         ]
       },
       {
-        "start_timestamp": "2022-08-16T04:52:10.617Z",
-        "line": 64,
+        "start_timestamp": "2022-08-17T04:55:31.893Z",
+        "line": 57,
         "name": "Verify that the user profession is updated",
         "description": "",
         "id": "super-hero-feature;verify-that-the-user-profession-is-updated",
@@ -735,10 +734,10 @@
         "steps": [
           {
             "result": {
-              "duration": 1056657900,
+              "duration": 399930600,
               "status": "passed"
             },
-            "line": 65,
+            "line": 58,
             "name": "Create a user",
             "match": {
               "location": "steps.MyStepdefs.createAUser()"
@@ -747,10 +746,10 @@
           },
           {
             "result": {
-              "duration": 476075800,
+              "duration": 441820100,
               "status": "passed"
             },
-            "line": 66,
+            "line": 59,
             "name": "updating profession of user",
             "match": {
               "location": "steps.MyStepdefs.updatingProfessionOfUser()"
@@ -759,10 +758,10 @@
           },
           {
             "result": {
-              "duration": 113066800,
+              "duration": 22936800,
               "status": "passed"
             },
-            "line": 67,
+            "line": 60,
             "name": "User profession must be updated",
             "match": {
               "location": "steps.MyStepdefs.userProfessionMustBeUpdated()"
@@ -792,8 +791,8 @@
         ]
       },
       {
-        "start_timestamp": "2022-08-16T04:52:12.292Z",
-        "line": 70,
+        "start_timestamp": "2022-08-17T04:55:32.781Z",
+        "line": 62,
         "name": "Verify that the user age is updated",
         "description": "",
         "id": "super-hero-feature;verify-that-the-user-age-is-updated",
@@ -802,10 +801,10 @@
         "steps": [
           {
             "result": {
-              "duration": 834320900,
+              "duration": 229386300,
               "status": "passed"
             },
-            "line": 71,
+            "line": 63,
             "name": "Create a user",
             "match": {
               "location": "steps.MyStepdefs.createAUser()"
@@ -814,10 +813,10 @@
           },
           {
             "result": {
-              "duration": 628812900,
+              "duration": 210437500,
               "status": "passed"
             },
-            "line": 72,
+            "line": 64,
             "name": "updating age of user",
             "match": {
               "location": "steps.MyStepdefs.updatingAgeOfUser()"
@@ -826,10 +825,10 @@
           },
           {
             "result": {
-              "duration": 26941100,
+              "duration": 28922300,
               "status": "passed"
             },
-            "line": 73,
+            "line": 65,
             "name": "User age must be updated",
             "match": {
               "location": "steps.MyStepdefs.userAgeMustBeUpdated()"
@@ -859,8 +858,8 @@
         ]
       },
       {
-        "start_timestamp": "2022-08-16T04:52:13.798Z",
-        "line": 76,
+        "start_timestamp": "2022-08-17T04:55:33.283Z",
+        "line": 67,
         "name": "Verify that the user canFly status is updated",
         "description": "",
         "id": "super-hero-feature;verify-that-the-user-canfly-status-is-updated",
@@ -869,10 +868,10 @@
         "steps": [
           {
             "result": {
-              "duration": 463873700,
+              "duration": 330476400,
               "status": "passed"
             },
-            "line": 77,
+            "line": 68,
             "name": "Create a user",
             "match": {
               "location": "steps.MyStepdefs.createAUser()"
@@ -881,10 +880,10 @@
           },
           {
             "result": {
-              "duration": 348686500,
+              "duration": 238351200,
               "status": "passed"
             },
-            "line": 78,
+            "line": 69,
             "name": "updating canFly  status of user",
             "match": {
               "location": "steps.MyStepdefs.updatingCanFlyStatusOfUser()"
@@ -893,10 +892,10 @@
           },
           {
             "result": {
-              "duration": 24933600,
+              "duration": 23946000,
               "status": "passed"
             },
-            "line": 79,
+            "line": 70,
             "name": "User canFly status must be updated",
             "match": {
               "location": "steps.MyStepdefs.userCanFlyStatusMustBeUpdated()"
@@ -926,8 +925,8 @@
         ]
       },
       {
-        "start_timestamp": "2022-08-16T04:52:14.660Z",
-        "line": 81,
+        "start_timestamp": "2022-08-17T04:55:33.922Z",
+        "line": 72,
         "name": "Verify that a invalid id cannot update",
         "description": "",
         "id": "super-hero-feature;verify-that-a-invalid-id-cannot-update",
@@ -936,10 +935,10 @@
         "steps": [
           {
             "result": {
-              "duration": 632308200,
+              "duration": 201979500,
               "status": "passed"
             },
-            "line": 82,
+            "line": 73,
             "name": "update invalid id",
             "match": {
               "location": "steps.MyStepdefs.updateInvalidId()"
@@ -948,10 +947,9 @@
           },
           {
             "result": {
-              "duration": 997900,
               "status": "passed"
             },
-            "line": 83,
+            "line": 74,
             "name": "display invalid error",
             "match": {
               "location": "steps.MyStepdefs.displayInvalidError()"
@@ -981,8 +979,8 @@
         ]
       },
       {
-        "start_timestamp": "2022-08-16T04:52:15.318Z",
-        "line": 86,
+        "start_timestamp": "2022-08-17T04:55:34.144Z",
+        "line": 76,
         "name": "Verify that the user is deleted",
         "description": "",
         "id": "super-hero-feature;verify-that-the-user-is-deleted",
@@ -991,10 +989,10 @@
         "steps": [
           {
             "result": {
-              "duration": 659799700,
+              "duration": 360066500,
               "status": "passed"
             },
-            "line": 87,
+            "line": 77,
             "name": "Create a user to delete",
             "match": {
               "location": "steps.MyStepdefs.createAUserToDelete()"
@@ -1003,10 +1001,10 @@
           },
           {
             "result": {
-              "duration": 629656500,
+              "duration": 254436500,
               "status": "passed"
             },
-            "line": 88,
+            "line": 78,
             "name": "delete the super hero",
             "match": {
               "location": "steps.MyStepdefs.deleteTheSuperHero()"
@@ -1015,9 +1013,10 @@
           },
           {
             "result": {
+              "duration": 991700,
               "status": "passed"
             },
-            "line": 89,
+            "line": 79,
             "name": "super hero Deleted",
             "match": {
               "location": "steps.MyStepdefs.superHeroDeleted()"
@@ -1047,8 +1046,8 @@
         ]
       },
       {
-        "start_timestamp": "2022-08-16T04:52:16.622Z",
-        "line": 91,
+        "start_timestamp": "2022-08-17T04:55:34.787Z",
+        "line": 81,
         "name": "Verify that the invalid user is deleted",
         "description": "",
         "id": "super-hero-feature;verify-that-the-invalid-user-is-deleted",
@@ -1057,10 +1056,10 @@
         "steps": [
           {
             "result": {
-              "duration": 285415100,
+              "duration": 188035200,
               "status": "passed"
             },
-            "line": 92,
+            "line": 82,
             "name": "deleted invalid super hero",
             "match": {
               "location": "steps.MyStepdefs.deletedInvalidSuperHero()"
@@ -1069,9 +1068,10 @@
           },
           {
             "result": {
+              "duration": 999100,
               "status": "passed"
             },
-            "line": 93,
+            "line": 83,
             "name": "display deleted msg",
             "match": {
               "location": "steps.MyStepdefs.displayDeletedMsg()"
